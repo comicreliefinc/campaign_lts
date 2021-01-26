@@ -37,7 +37,7 @@
     "webpack": "^2.2.1"
   },
   "resolutions": {
-    "customizr": "1.2.1",
+    "customizr": "2.0.2",
     "underscore.string" : "^3.3.5",
     "diff" : "3.5.0",
     "lodash.template" : "4.5.0",
