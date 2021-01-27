@@ -1109,7 +1109,7 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-customizr@2.0.2, "customizr@https://github.com/Modernizr/customizr/tarball/develop":
+customizr@2.0.2, customizr@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/customizr/-/customizr-2.0.2.tgz#063d98c9cf8524241206675f4e57dc901c27856f"
   integrity sha512-7EzirXxHNlZOApVTj1E4pupyWRCn79B1hsQV7Hi075vwfZwdFA+vM03CC397TFYlDvjj+hnh+pBkaSZQN+Pjew==
@@ -2223,12 +2223,13 @@ grunt-legacy-util@~1.0.0:
     underscore.string "~3.2.3"
     which "~1.2.1"
 
-grunt-modernizr@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/grunt-modernizr/-/grunt-modernizr-1.0.3.tgz#f197b7830adb096961f112c7625241100c369323"
+grunt-modernizr@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/grunt-modernizr/-/grunt-modernizr-3.0.1.tgz#74ad61a4dce8779f94793e5c2853ab2653aad5e6"
+  integrity sha512-5S1cFYx6iy6amMcsgOsyvScau1bx/TM94C3+0fzM27j3Ipcz2kT6fJwP84s1gaLM6wbvE0xRWKBS8H9Mk0yK/A==
   dependencies:
-    customizr "https://github.com/Modernizr/customizr/tarball/develop"
-    lodash.merge "^4.0.1"
+    customizr "^2.0.1"
+    lodash.merge "^4.6.2"
 
 grunt-postcss@^0.8.0:
   version "0.8.0"
@@ -3147,9 +3148,10 @@ lodash.isfinite@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/lodash.isfinite/-/lodash.isfinite-3.3.2.tgz#fb89b65a9a80281833f0b7478b3a5104f898ebb3"
 
-lodash.merge@^4.0.1:
+lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.tail@^4.1.1:
   version "4.1.1"
