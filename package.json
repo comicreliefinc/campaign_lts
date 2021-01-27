@@ -1,7 +1,7 @@
 {
-  "name": "campaign",
+  "name": "campaign_lts",
   "version": "1.0.0",
-  "description": "> Drupal 8 profile for building enganging fundraising websites, maintained by [Comic Relief](https://www.comicrelief.com)",
+  "description": "> Drupal 8 profile for building enganging fundraising websites, maintained by [Comic Relief US](https://www.comicrelief.org)",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comicrelief/campaign.git"
+    "url": "git+https://github.com/comicreliefinc/campaign_lts.git"
   },
   "author": "",
   "license": "GPL",
   "bugs": {
-    "url": "https://github.com/comicrelief/campaign/issues"
+    "url": "https://github.com/comicreliefinc/campaign_lts/issues"
   },
-  "homepage": "https://github.com/comicrelief/campaign#readme",
+  "homepage": "https://github.com/comicreliefinc/campaign_lts#readme",
   "dependencies": {}
 }

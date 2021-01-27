@@ -1,6 +1,6 @@
 {
-    "name": "comicrelief/campaign",
-    "description": "Comic Relief's campaign distribution",
+    "name": "comicreliefinc/campaign_lts",
+    "description": "Comic Relief's LTS campaign distribution",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
