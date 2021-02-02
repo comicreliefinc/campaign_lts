@@ -15,6 +15,7 @@ build:
 dependencies:
     php:
         drush/drush: "9.0.0-alpha1"
+        composer/composer: '^2.0'
     nodejs:
         grunt-cli: "~0.1.13"
         yarn: "*"
