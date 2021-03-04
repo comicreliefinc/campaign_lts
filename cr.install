@@ -429,3 +429,12 @@ function cr_update_8046() {
 function cr_update_8047() {
   installer()->install(['simple_sitemap']);
 }
+
+/**
+ * Re-install the cr_article configuration to bring in changes to Type(Webinar) field.
+ */
+function cr_update_8048() {
+  // Reinstall the cr_article configuration.
+  \Drupal::service('config.installer')
+    ->installDefaultConfig('module', 'cr_article');
+}

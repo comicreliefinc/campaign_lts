@@ -59,6 +59,8 @@ no_caption
 <section class="cr-article__bottom-region">
   {% if type == 'press-releases' %}
     {{ content['dynamic_block_field:node-related_press_releases'] }}
+  {% elseif type == 'webinar' %}
+    {{ content['dynamic_block_field:node-related_webinars'] }}
   {% else %}
     {{ content['dynamic_block_field:node-related_news'] }}
   {% endif %}
