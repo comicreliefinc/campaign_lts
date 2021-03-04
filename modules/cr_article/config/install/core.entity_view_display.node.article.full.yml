@@ -66,11 +66,6 @@ third_party_settings:
         weight: 8
         label: hidden
         formatter: default
-      'dynamic_block_field:node-related_webinars':
-        plugin_id: 'dynamic_block_field:node-related_webinars'
-        weight: 9
-        label: hidden
-        formatter: default
       node_title:
         plugin_id: node_title
         weight: 1
