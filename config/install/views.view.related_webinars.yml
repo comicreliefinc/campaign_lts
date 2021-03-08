@@ -337,7 +337,7 @@ display:
         groups:
           1: AND
       use_ajax: true
-    css_class: related-articles--webinars
+      css_class: related-articles--webinars
     cache_metadata:
       max-age: -1
       contexts:
