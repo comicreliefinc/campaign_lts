@@ -177,7 +177,7 @@
         "drupal/restui": "1.20",
         "drupal/scheduled_updates": "1.0-alpha7",
         "drupal/search_api": "1.20",
-        "drupal/search_api_solr": "4.2.1",
+        "drupal/search_api_solr": "1.7",
         "drupal/simple_sitemap": "3.10",
         "drupal/social_links": "3.0.0",
         "drupal/token": "1.9",
