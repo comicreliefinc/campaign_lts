@@ -15,6 +15,7 @@ class ArticleService {
 
   const TYPE_NEWS = 'news';
   const TYPE_PRESS_RELEASE = 'press-releases';
+  const TYPE_WEBINAR = 'webinar';
 
   /**
    * @var TranslationManager
@@ -38,7 +39,8 @@ class ArticleService {
   {
     return array(
       $this::TYPE_NEWS          => $this->translationManager->translate('News'),
-      $this::TYPE_PRESS_RELEASE => $this->translationManager->translate('Press Releases')
+      $this::TYPE_PRESS_RELEASE => $this->translationManager->translate('Press Releases'),
+      $this::TYPE_WEBINAR => $this->translationManager->translate('Webinar')
     );
   }
 

@@ -52,6 +52,7 @@ third_party_settings:
         - body
         - 'dynamic_block_field:node-related_news'
         - 'dynamic_block_field:node-related_press_releases'
+        - 'dynamic_block_field:node-related_webinars'
         - field_article_type
         - field_article_hide_image
     fields:
@@ -63,6 +64,11 @@ third_party_settings:
       'dynamic_block_field:node-related_press_releases':
         plugin_id: 'dynamic_block_field:node-related_press_releases'
         weight: 8
+        label: hidden
+        formatter: default
+      'dynamic_block_field:node-related_webinars':
+        plugin_id: 'dynamic_block_field:node-related_webinars'
+        weight: 9
         label: hidden
         formatter: default
       node_title:
@@ -88,7 +94,7 @@ content:
     region: ds_content
   field_article_hide_image:
     type: boolean
-    weight: 10
+    weight: 11
     region: ds_content
     label: above
     settings:
@@ -116,7 +122,7 @@ content:
     region: ds_content
   field_article_type:
     type: list_key
-    weight: 9
+    weight: 10
     region: ds_content
     label: hidden
     settings: {  }
