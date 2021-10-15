@@ -9,7 +9,7 @@ dependencies:
     - options
     - user
 id: related_webinars
-label: 'Related webinars'
+label: 'Related Webinars'
 module: views
 description: ''
 tag: ''
@@ -337,6 +337,7 @@ display:
         groups:
           1: AND
       use_ajax: true
+    css_class: related-articles--webinars
     cache_metadata:
       max-age: -1
       contexts:
